@@ -124,7 +124,7 @@ const  hamu = "bread"
      console.log(3)
      return 1;
  };
- 
+
  const callCCC = CCC (); //CCC()という式を呼び出し実行されると１という値をcallCCCに代入//
 console.log(callCCC)
 
@@ -258,8 +258,6 @@ if(year % 4 === 0){
     console.log(`${year}年は閏年ではない`);
 }
 
-
-
 const ミスド = "ミスタードーナツ";
 switch (ミスド){
     case "ミスタードーナツ":
@@ -295,19 +293,166 @@ function ミスタードーナツ (あ){
     }
 }
 
+//ループと反復処理//
+//while(条件式){
+//   実行する文;
+//}
+
+let x = 0;
+console.log(`ループ開始前のxの値 ${x}`);
+while (x < 10){
+    console.log(x);
+    x += 1;
+}
+let t = 0;
+console.log(`ループ開始前のtの値 ${t}`);
+while(t < 10){
+    console.log(t);
+    t += 1;
+}
+let q = 0;
+console.log(`ループ開始前のwの値 ${q}`);
+while(w<10){
+    console.log(q);
+    q+=1;
+}
+let e = 10;
+console.log(`ループ開始前のeの値 ${e}`);
+while(e<20){
+    console.log(e);
+    e+=1;
+}
+
+for (let i = 1; i < 3; i++){
+    console.log("i = " + i);
+  }
+  
+  console.log('end');
 
 
 
+  let total = 0;
+  for (let i = 0; i < 10; i++) {
+      total += 0 + 1;
+  }
+  total = 1;
+  for (let i = 0; i < 10; i++) {
+      total = total + 1 + 1;
+  }
+  total = 3;
+  for (let i = 0; i < 10; i++) {
+      total = total + 2 + 1;
+  }
+  total = 6;
+  for (let i = 0; i < 10; i++) {
+    total = 6 + 3 + 1;
+  }
+  total = 10;
+  for (let i = 0; i < 10; i++) {
+    total = total + 4 + 1;
+  }
+  total = 15;
+  for (let i = 0; i < 10; i++) {
+    total = total + 5 + 1;
+  }
+  total = 21;
+  for (let i = 0; i < 10; i++) {
+      total = total + 6 + 1;
+  }
+  total = 28;
+  for (let i = 0; i < 10; i++) {
+      total = total + 7 + 1;
+  }
+  total = 36;
+  for (let i = 0; i < 10; i++) {
+      total = total + 8 + 1;
+  }
+  total = 45;
+  for (let i = 0; i < 10; i++) {
+      total = total + 9 + 1;
+    }
+total = 55;
+
+let total2 = 0;
+for (let r = 0; r < 10; r++){
+    total2 += r+1; 
+}
+console.log(total2)
+
+let total3 = 0; 
+for (let o =0; o<10; o++){
+    total3+=o+1;
+}
+console.log(total3);
+
+let total4 =0;
+for(let m =0; m<20; m++){
+    total4+=m+1;
+}
+console.log(total4);
+
+const sum = (numbars) => {
+    let total5 = 0;
+    for (let c = 0; c < numbars.length; c++){
+        total5 += numbars[c];
+    }
+        return total5;
+    }
+console.log(sum([1,2,3,4,5]));
+
+const sum2 = (numbars2) =>{
+    let total6 =0;
+    for (let d = 0; d < numbars2; d++){
+        total6 += numbars2[d];
+    }
+        return total6;
+}
+console.log(sum([1,2,3,4,5,6,7,8,9]));
+
+const sum3 = (numbars3) =>{
+    let total7 =0;
+    for(let e = 0; e < numbars3; e++){
+        total7+=numbars3[e];
+    } 
+    return total7
+}
+console.log(sum([10,15,20,25,30]));
 
 
+const array2 =[1,2,3];
+array2.forEach(currentValue =>{
+    console.log(currentValue)
+});
+const array3 = [1,3,5,7,9];
+array3.forEach(currentValue =>{
+    console.log(currentValue)
+});
+const array4 = [100,99,98,97,96,95];
+array4.forEach(currentValue =>{
+    console.log(currentValue)
+});
 
+const numbers4 = [1,5,10,15,20];
+let evennumber = false; //console.logで表示されるためにfalse真偽値(宣言)をかませる
+for(let f = 0; f < numbers4.length; f++){ //numbera4.lengthは配列の個数を表示するため
+    const num =numbers4[f];
+    if(num % 2===0){
+        evennumber=true;
+        break;
+    }
+}
+console.log(numbers4);
 
-
-
-
-
-
-
+const number4 =[1,5,10,15,20,25,30];
+let evennunber = false;
+for(let g = 0; g<7; g++){
+    const num2 = number4[g];
+    if(num2 % 2 === 0 ){
+        evennumber=true;
+        break;
+    }
+}
+console.log(number4)
 
 
 
