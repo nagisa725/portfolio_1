@@ -441,7 +441,7 @@ for(let f = 0; f < numbers4.length; f++){ //numbera4.lengthは配列の個数を
         break;
     }
 }
-console.log(numbers4);
+console.log(evennumber);
 
 const number4 =[1,5,10,15,20,25,30];
 let evennunber = false;
@@ -452,7 +452,47 @@ for(let g = 0; g<7; g++){
         break;
     }
 }
-console.log(number4)
+console.log(evennumber)
+
+const number5 =[1,2,3,4,5,6,7,8,9,];
+let oddnumber =false;
+for(let h = 0; h < number5.length; h++){
+    const num3 = number5[h];
+    if(num3 % 3 === 0){
+        oddnumber = true;
+        break;
+    }
+}
+console.log(oddnumber);
+
+//for...in文 
+//親要素のオブジェクトまで探索して列挙してしまう
+const obj = {
+    "a": 1,
+    "b": 2,
+    "c": 3
+};
+for(const key in obj){
+    value = obj[key];
+    console.log(`key:${key}, value:${value}`);
+}
+
+//↓安全 Object.key Object.value Object.entriesでも作れる
+const obj2= {
+    "a" : 1,
+    "b" : 2,
+    "c" : 3
+};
+Object.keys(obj2).forEach(key =>{
+    const value = obj2[key];
+    console.log(`key:${key}, value:${value}`);
+});
+
+
+
+
+
+
 
 
 
