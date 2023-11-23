@@ -1,4 +1,10 @@
 @charset "UTF-8";
+body{
+    margin: 0;
+}
+
+
+
 .header {
     justify-content: space-between;
     align-items: center;
@@ -91,6 +97,7 @@ a {
     margin-top: 80px;
 }
 
+
 .photo{
     display: flex;
     width: 290px;
@@ -125,14 +132,14 @@ p{
 
 
 /* 普通のCSS */
-.header {
+/* .header {
 }
 .header_wrapper {
 }
 .header_text {
 }
 .header_image {
-}
+} */
 
 /* Sass */
 /* .header {

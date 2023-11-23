@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./Product-Details.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/Product-Details.css">
     <title>Document</title>
+    <script src="../js/Product page.js">
+        /*
+        これは、例文
+        file:///Users/hamadanagisa/workspace/portfolio_1/design2/example/html/Product-Details.html?product=chiikawa        
+    
+        ・url から、「product」の値を取得して、data/products.jsonファイルから、「chiikawa」を探す
+        ・chiikawaを自分で作った変数に格納する
+        ・DOMを取得する  
+        ・取得したDOMに、格納したchiikawaの必要な部分をDOMに埋め込んでいく
+        ・hachiware, ...etc も作る  
+        */
+    </script>
 </head>
 <body>
     <header class="header">
@@ -19,24 +31,24 @@
             <img src="https://i.pinimg.com/550x/e0/2a/56/e02a56f217ecf3e00ee7f07e0268b389.jpg" class="photo" />
             
                 <div class="text_box">    
-                    <div class="text">
+                    <div id="content"class="text">
                         <p>テキストテキストテキストテキストテキストテキスト</p>
                         <p>テキストテキストテキストテキストテキストテキスト</p>
                         <p>テキストテキストテキストテキストテキストテキスト</p>
                         <p>テキストテキストテキストテキストテキストテキスト</p>
                         <p>テキストテキストテキスト</p>
                     </div>
-                    <div class="text">
+                    <div id="content"class="text">
                         <p>テキストテキストテキストテキストテキストテキスト</p>
                         <p>テキストテキストテキストテキストテキストテキスト</p>
                         <p>テキストテキストテキストテキストテキストテキスト</p>
                         <p>テキストテキストテキストテキストテキストテキスト</p>
                         <p>テキストテキストテキスト</p>
                     </div>
-                    <div class="text">
+                    <div id="price"class="text">
                         <p>$99,999 +tax</p>
                     </div>
-                    <div class="text">
+                    <div id="size"class="text">
                         <p>SIZE：　　　　W999×D999×H999</p>
                         <p>COLOR：　　　テキスト</p>
                         <p>MATERIAL：　テキストテキストテキスト</p>

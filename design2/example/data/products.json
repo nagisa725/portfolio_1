@@ -1,0 +1,39 @@
+{
+    "chiikawa": {
+        "title": "プロダクトタイトル",
+        "content": "テキストテキストテキストテキストテキストテキスト",
+        "image": "https://i.pinimg.com/550x/e0/2a/56/e02a56f217ecf3e00ee7f07e0268b389.jpg",
+        "size": "W999×D999×H999",
+        "price": "$99,999 +tax",
+        "color": "red",
+        "material": "マテリアル"
+    },
+    "hachiware": {
+        "title": "プロダクトタイトル",
+        "content": "テキストテキストテキストテキストテキストテキスト",
+        "image": "https://i.pinimg.com/736x/56/dd/cb/56ddcbe294783e18f78e5f4112aa9e98.jpg",
+        "size": "W999×D999×H999",
+        "price": "$99,999 +tax",
+        "color": "red",
+        "material": "マテリアル"
+    },
+    "usagi":{
+        "title": "プロダクトタイトル",
+        "content": "テキストテキストテキストテキストテキストテキスト",
+        "image": "https://pics.prcm.jp/9534c92f14ad1/85879189/png/85879189_480x480.png",
+        "size": "W999×D999×H999",
+        "price": "$99,999 +tax",
+        "color": "red",
+        "material": "マテリアル"
+    },
+    "si_sa_":{
+        "title": "プロダクトタイトル",
+        "content": "テキストテキストテキストテキストテキストテキスト",
+        "image": "https://pics.prcm.jp/9534c92f14ad1/85810921/jpeg/85810921_480x480.jpeg",
+        "size": "W999×D999×H999",
+        "price": "$99,999 +tax",
+        "color": "red",
+        "material": "マテリアル"
+
+    }
+}
